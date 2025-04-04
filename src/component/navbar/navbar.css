@@ -1,0 +1,116 @@
+.navbar-main{
+    height: 100px;
+}
+.search {
+    padding-bottom: 10px;
+}
+
+
+/* From Uiverse.io by Satwinder04 */ 
+/* Input container */
+.input-container {
+  position: relative;
+  margin: 20px;
+}
+
+/* Input field */
+.input-field {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  color: white;
+  background-color: transparent;
+}
+
+/* Input label */
+.input-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: rgba(204, 204, 204, 0);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* Input highlight */
+.input-highlight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #007bff;
+  transition: all 0.3s ease;
+}
+
+/* Input field:focus styles */
+.input-field:focus + .input-label {
+  top: -20px;
+  font-size: 12px;
+  color: white;
+}
+
+.input-field:focus + .input-label + .input-highlight {
+  width: 100%;
+}
+
+/* Navbar Styling */
+.navbar-main {
+  height: 100px;
+}
+
+/* Search Bar */
+.search {
+  padding-bottom: 10px;
+}
+
+.search-main input {
+  width: 150px;
+  border-radius: 10px;
+}
+
+/* Profile Button */
+.profile-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/* Profile Offcanvas */
+.offcanvas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px;
+}
+
+.profile-section {
+  padding: 20px 0;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.list-group-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-group-item:hover {
+  background: #333;
+}
+
+/* Logout Button */
+.btn-danger {
+  border-radius: 5px;
+  padding: 8px;
+}
